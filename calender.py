@@ -16,14 +16,7 @@ print(calendar.month(2030,1))
 #if we need to set the 1st day of the week as Tuesday
 calendar.setfirstweekday(1)
 print(calendar.month(2030,2))
-#calender.setfirstweekday(argument) in argument use this numbers
-#0 = Monday
-#1 = Tuesday
-#2 = Wednesday
-#3 = Thursday
-#4 = Friday
-#5 = Saturday
-#6 = Sunday
+#calender.setfirstweekday(argument) in argument use the numbers
 
 #to find the yeap year
 is_leap=calendar.isleap(2028)
